@@ -1,0 +1,9 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: specialist-booking-ufe
+spec:
+  frontendClass: md-shell
+  service:
+    name: specialist-booking-ufe
+  modulePath: build/specialist-booking-ufe.esm.js

@@ -1,0 +1,25 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: specialist-booking-ufe-link
+spec:
+  microFrontend: polyfea-md-shell
+  element: polyfea-md-app
+  attributes:
+    - name: headline
+      value: Specialist Booking
+    - name: short-headline
+      value: Specialist Booking
+    - name: supporting-text
+      value: |
+        Online objednávanie pacientov na vyšetrenie u špecialistu
+    - name: material-icon
+      value: event_available
+    - name: href
+      value: ./specialist-booking
+  priority: 10
+  displayRules:
+    - anyOf:
+        - context-name: applications
+        - context-name: rail-content
+        - context-name: drawer-content

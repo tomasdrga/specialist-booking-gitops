@@ -1,0 +1,14 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: specialist-booking-ufe-content
+spec:
+  microFrontend: specialist-booking-ufe
+  element: specialist-booking-app
+  attributes:
+    - name: base-path
+      value: /specialist-booking/
+  displayRules:
+    - allOf:
+        - context-name: main-content
+        - path: "^(\\.?/)?specialist-booking(/.*)?$"

@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: specialist-booking-ufe
+spec:
+  selector:
+    pod: specialist-booking-ufe-label
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: http
