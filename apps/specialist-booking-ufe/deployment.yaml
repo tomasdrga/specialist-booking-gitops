@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: specialist-booking-ufe-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       pod: specialist-booking-ufe-label
