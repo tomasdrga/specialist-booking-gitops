@@ -12,3 +12,6 @@ resources:
   - cd.kustomization.yaml
   - install.kustomization.yaml
   - git-repository.yaml
+  - specialist-booking-ufe.image-repository.yaml
+  - specialist-booking-ufe.image-policy.yaml
+  - image-update-automation.yaml
