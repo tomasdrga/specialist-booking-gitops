@@ -10,4 +10,4 @@ spec:
     pattern: "main.*"
   policy:
     alphabetical:
-      order: asc
+      order: desc
