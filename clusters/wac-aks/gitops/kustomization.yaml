@@ -6,7 +6,7 @@ labels:
       app.kubernetes.io/part-of: specialist-booking
       app.kubernetes.io/name: specialist-booking
 
-namespace: drga-drienovsky-specialist-booking
+namespace: wac-hospital
 
 resources:
   - cd.kustomization.yaml
