@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+labels:
+  - pairs:
+      app.kubernetes.io/part-of: specialist-booking
+      app.kubernetes.io/name: specialist-booking
+
+namespace: drga-drienovsky-specialist-booking
+
+resources:
+  - cd.kustomization.yaml
+  - install.kustomization.yaml
+  - git-repository.yaml
