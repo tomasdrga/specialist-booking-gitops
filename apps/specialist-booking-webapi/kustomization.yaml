@@ -3,3 +3,13 @@ kind: Kustomization
 
 resources:
   - "https://github.com/tomasdrga/specialist-booking-webapi//deployments/kustomize/install"
+  - openapi-ui.service.yaml
+  - http-route.yaml
+
+patches:
+  - path: patches/specialist-booking-webapi.deployment.yaml
+
+labels:
+  - pairs:
+      app.kubernetes.io/component: specialist-booking-webapi
+      wac-fiit.github.io/component: backend

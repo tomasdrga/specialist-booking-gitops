@@ -1,22 +1,19 @@
 apiVersion: polyfea.github.io/v1alpha1
 kind: WebComponent
 metadata:
-  name: specialist-booking-ufe-link
+  name: mongo-express-ufe-link
 spec:
   microFrontend: polyfea-md-shell
   element: polyfea-md-app
   attributes:
     - name: headline
-      value: Objednávanie k špecialistovi
+      value: Mongo Express
     - name: short-headline
-      value: Objednávanie k špecialistovi
-    - name: supporting-text
-      value: |
-        Online objednávanie pacientov na vyšetrenie u špecialistu
+      value: Databáza objednávania
     - name: material-icon
-      value: event_available
+      value: database
     - name: href
-      value: ./specialist-booking
+      value: ./mongo-express
   priority: 10
   displayRules:
     - anyOf:

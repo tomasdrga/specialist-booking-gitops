@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: specialist-booking-webapi
+spec:
+  template:
+    spec:
+      containers:
+        - name: openapi-ui
+          env:
+            - name: URL
+              value: /specialist-booking-openapi
+            - name: BASE_URL
+              value: /specialist-booking-openapi-ui

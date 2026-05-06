@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: ./specialist-booking/
     - name: api-base
-      value: http://localhost:30081/api
+      value: /specialist-booking-api
     - name: clinic-id
       value: specialist-clinic
   displayRules:

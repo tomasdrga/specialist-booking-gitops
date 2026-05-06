@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: specialist-booking
+spec:
+  title: "Objednávanie k špecialistovi"
+  description: "Online systém na objednávanie pacientov k špecialistovi a správu dostupných termínov ambulancie"
+  authors: "Tomáš Drga, Matej Drienovský"
+  azureLink: "https://specialist-booking.azurewebsites.net/"
+  frontendRepoUrl: "https://github.com/tomasdrga/specialist-booking-ufe"
+  backendRepoUrl: "https://github.com/tomasdrga/specialist-booking-webapi"
+  gitopsRepoUrl: "https://github.com/tomasdrga/specialist-booking-gitops"

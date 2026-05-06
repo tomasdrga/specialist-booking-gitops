@@ -10,6 +10,7 @@ labels:
 resources:
   - ../../../apps/specialist-booking-ufe
   - ../../../apps/specialist-booking-webapi
+  - ../../../apps/mongo-express
 
 patches:
   - path: patches/specialist-booking-webapi.service.yaml

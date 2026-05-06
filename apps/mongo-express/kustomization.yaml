@@ -6,9 +6,8 @@ resources:
   - service.yaml
   - webcomponent-link.yaml
   - webcomponent-content.yaml
-  - microfrontend.yaml
+  - http-route.yaml
 
 labels:
   - pairs:
-      app.kubernetes.io/component: specialist-booking-ufe
-      wac-fiit.github.io/component: frontend
+      app.kubernetes.io/component: mongo-express

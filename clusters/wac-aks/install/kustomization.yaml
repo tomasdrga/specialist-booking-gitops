@@ -12,6 +12,7 @@ labels:
 
 resources:
   - ../../../apps/specialist-booking-ufe
+  - ../../../apps/specialist-booking-webapi
 
 components:
   - ../../../components/version-release
