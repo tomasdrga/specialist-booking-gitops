@@ -8,8 +8,8 @@ resources:
 
 patches:
   - path: patches/specialist-booking-webapi.deployment.yaml
-  - path: patches/specialist-booking-webapi.service.yaml
 
 labels:
   - pairs:
       app.kubernetes.io/component: specialist-booking-webapi
+      wac-fiit.github.io/component: backend

@@ -5,7 +5,7 @@ namespace: wac-hospital
 
 labels:
   - pairs:
-      app.kubernetes.io/part-of: specialist-booking
+      app.kubernetes.io/part-of: wac-hospital
       app.kubernetes.io/name: specialist-booking
       wac-fiit.github.io/project: specialist-booking
     includeSelectors: true
