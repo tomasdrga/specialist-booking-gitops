@@ -9,6 +9,11 @@ labels:
 
 resources:
   - ../../../apps/specialist-booking-ufe
+  - ../../../apps/specialist-booking-webapi
+
+patches:
+  - path: patches/specialist-booking-webapi.service.yaml
 
 components:
   - ../../../components/version-developers
+  - https://github.com/tomasdrga/specialist-booking-webapi//deployments/kustomize/components/mongodb

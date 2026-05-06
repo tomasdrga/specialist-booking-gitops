@@ -3,4 +3,4 @@ kind: Component
 images:
   - name: tomdrg/specialist-booking-ufe
     newName: tomdrg/specialist-booking-ufe
-    newTag: 1.0.0
+    newTag: 1.0.1

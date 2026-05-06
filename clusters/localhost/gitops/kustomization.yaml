@@ -15,3 +15,5 @@ resources:
   - specialist-booking-ufe.image-repository.yaml
   - specialist-booking-ufe.image-policy.yaml
   - image-update-automation.yaml
+  - specialist-booking-webapi.image-repository.yaml
+  - specialist-booking-webapi.image-policy.yaml

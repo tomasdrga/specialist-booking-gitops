@@ -9,9 +9,9 @@ spec:
     - name: base-path
       value: ./specialist-booking/
     - name: api-base
-      value: http://localhost:5000/api
+      value: http://localhost:30081/api
     - name: clinic-id
-      value: bobulova
+      value: specialist-clinic
   displayRules:
     - allOf:
         - context-name: main-content
