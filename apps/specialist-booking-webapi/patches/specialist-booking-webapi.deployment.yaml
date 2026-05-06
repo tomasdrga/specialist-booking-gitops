@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: specialist-booking-webapi
+  labels:
+    wac-fiit.github.io/component: backend
 spec:
   template:
     spec:

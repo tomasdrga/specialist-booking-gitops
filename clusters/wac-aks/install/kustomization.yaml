@@ -7,6 +7,7 @@ labels:
   - pairs:
       app.kubernetes.io/part-of: specialist-booking
       app.kubernetes.io/name: specialist-booking
+      wac-fiit.github.io/project: specialist-booking
     includeSelectors: true
     includeTemplates: true
 
