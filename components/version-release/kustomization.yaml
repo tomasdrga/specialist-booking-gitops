@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: tomdrg/specialist-booking-ufe
     newName: tomdrg/specialist-booking-ufe
-    newTag: 1.0.3
+    newTag: 1.0.4
   - name: tomdrg/specialist-booking-webapi
     newName: tomdrg/specialist-booking-webapi
     newTag: 1.0.1
