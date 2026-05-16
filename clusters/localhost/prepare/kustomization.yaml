@@ -5,6 +5,7 @@ resources:
   - ../../../infrastructure/polyfea
   - ../../../infrastructure/fluxcd
   - ../../../infrastructure/envoy-gateway
+  - ../../../infrastructure/observability
   - ../../../infrastructure/cert-manager
   - ../../../infrastructure/dex
   - ../../../infrastructure/opa-plugin
