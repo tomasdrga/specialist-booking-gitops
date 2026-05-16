@@ -6,4 +6,4 @@ images:
     newTag: main.20260516.1852 # {"$imagepolicy": "wac-hospital:specialist-booking-ufe:tag"}
   - name: tomdrg/specialist-booking-webapi
     newName: tomdrg/specialist-booking-webapi # {"$imagepolicy": "wac-hospital:specialist-booking-webapi:name"}
-    newTag: main.20260516.1816 # {"$imagepolicy": "wac-hospital:specialist-booking-webapi:tag"}
+    newTag: main.20260516.1847 # {"$imagepolicy": "wac-hospital:specialist-booking-webapi:tag"}
