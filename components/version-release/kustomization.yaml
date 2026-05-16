@@ -6,4 +6,4 @@ images:
     newTag: 1.0.4
   - name: tomdrg/specialist-booking-webapi
     newName: tomdrg/specialist-booking-webapi
-    newTag: 1.0.1
+    newTag: 1.0.2
