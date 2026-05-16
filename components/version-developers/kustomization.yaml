@@ -3,7 +3,7 @@ kind: Component
 images:
   - name: tomdrg/specialist-booking-ufe
     newName: tomdrg/specialist-booking-ufe # {"$imagepolicy": "wac-hospital:specialist-booking-ufe:name"}
-    newTag: main.20260516.1848 # {"$imagepolicy": "wac-hospital:specialist-booking-ufe:tag"}
+    newTag: main.20260516.1852 # {"$imagepolicy": "wac-hospital:specialist-booking-ufe:tag"}
   - name: tomdrg/specialist-booking-webapi
     newName: tomdrg/specialist-booking-webapi # {"$imagepolicy": "wac-hospital:specialist-booking-webapi:name"}
     newTag: main.20260516.1816 # {"$imagepolicy": "wac-hospital:specialist-booking-webapi:tag"}
