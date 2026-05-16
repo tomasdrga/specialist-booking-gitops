@@ -11,9 +11,23 @@ resources:
   - prepare.kustomization.yaml
   - cd.kustomization.yaml
   - install.kustomization.yaml
+  - secrets.kustomization.yaml
   - git-repository.yaml
   - specialist-booking-ufe.image-repository.yaml
   - specialist-booking-ufe.image-policy.yaml
   - image-update-automation.yaml
   - specialist-booking-webapi.image-repository.yaml
   - specialist-booking-webapi.image-policy.yaml
+
+patches:
+  - target:
+      group: kustomize.toolkit.fluxcd.io
+      version: v1
+      kind: Kustomization
+    patch: |-
+      - op: add
+        path: /spec/decryption
+        value:
+          provider: sops
+          secretRef:
+            name: sops-age
